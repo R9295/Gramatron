@@ -11,7 +11,6 @@ CFLAGS	+= -O3 -funroll-loops
 # CFLAGS += $(shell pkg-config --cflags json-c)
 
 LDFLAGS += $(shell pkg-config --libs json-c)
-LDFLAGS += -Wl,-R/usr/local/lib
 
 OBJ = gramfuzz.o gramfuzz-helpers.o gramfuzz-mutators.o gramfuzz-util.o hashmap.o
 
