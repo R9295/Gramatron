@@ -4,7 +4,7 @@ AFL_GF=`pwd`/afl-gf
 GF_MUTATOR=`pwd`/gramfuzz-mutator
 CLANG=clang-10
 CLANGXX=clang-10++
-LLVM_CONFIG=llvm-config-10
+LLVM_CONFIG=llvm-config
 
 export CC=$CLANG
 export CXX=$CLANGXX
